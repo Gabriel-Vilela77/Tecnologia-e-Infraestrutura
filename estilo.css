@@ -1,0 +1,165 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Background/fundo.jpg);
+}
+h1 {
+    background-color: #00000060;
+}
+section{
+    margin: 2%;
+    padding: 1%;
+    float: left;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+header {
+    background-color: #000000;
+    height: 120px;
+    width: 100%;
+    color: white;
+    z-index: 10;
+    position: fixed;
+}
+footer {
+    background-color: #ff4800d2;
+    width: 100%;
+    float: left;
+}
+li {
+    list-style: none;
+    font-size: 150%;
+    float: left;
+    padding: 26 10 60 10;
+}
+li:hover {
+    background-color: #ff4800;
+} 
+#imagem_fundo {
+    background: url(img/Background/CPU_Background.png);
+    background-size: cover;
+    height: 40%;
+    color: #ffffff;
+    padding: 16%;
+    text-align: center;
+    line-height: 200%;
+    font-size: 160%;
+}
+#subtitulo_capa {    
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,-1px -1px 1px black;
+    background-color: #00000060;
+    margin: 0 80 20 80;
+}
+#bordavideo {
+    border:#000000 solid;
+}
+#botao {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    border: 2px #ffffff solid;
+    padding: 1%;
+}
+#botao:hover {
+    background-color: #ff4800a6;
+}
+#margem0 {
+    margin-top: 0;
+}
+#tamanho_eu {
+    margin-left: 15%;
+    height: 50% ;
+    border: #000000 solid;
+}
+#logo {
+    width: 100px;
+    padding: 9 6 6 6;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+#menu_centralizar {
+    top: 0;
+}
+.fundo {
+    background-color: #aaaaaa;
+}
+.coluna {
+    float: left;
+    padding: 1%;
+    position: relative;
+}
+.dois {
+    padding-top: 0%;
+    float: right;
+    width: 45%;
+}
+.dois2 {
+    padding-top: 0%;
+    float: left;
+    width: 45%;
+}
+.tres{
+    width: 30%;
+}
+.quatro {
+    width: 23%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+.icone {
+    margin-left: 42%;
+    width: 51px;
+}
+.fundo_icone:hover {
+    background-color: #555555;
+    border-radius: 20%;
+}
+.tamanho {
+    border: 3px #000000 solid;
+    height: 35%;
+    width: 100%;
+}
+.arrumacao {
+    color: #ffffff;
+    text-decoration: none;
+}
+@media all and (max-width: 768px) {
+    #menu_centralizar {
+        visibility: hidden;
+    }
+    #tamanho_eu {
+        margin-left: 35%;
+    }
+    #bordavideo {
+        width: 100%;
+    }
+    #logo {
+        padding-left: 43.5%;
+    }
+    .coluna, .dois, .tres, .quatro, .dois2 {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    .icone {
+        margin-left: 46%;
+    }
+    .tamanho {
+        width: 70%;
+    }
+}
